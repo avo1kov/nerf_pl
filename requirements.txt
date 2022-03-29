@@ -1,4 +1,4 @@
-torch==1.4.0
+torch==1.10.0  # torch==1.4.0
 torchvision==0.5.0
 pytorch-lightning==0.7.5
 test-tube
@@ -16,3 +16,10 @@ pyglet
 # for point cloud
 plyfile
 open3d
+
+# colab error message
+tf-estimator-nightly==2.8.0.dev2021122109
+tornado~=5.1.0
+Jinja2==3.0
+folium==0.2.1
+imgaug==0.2.7
